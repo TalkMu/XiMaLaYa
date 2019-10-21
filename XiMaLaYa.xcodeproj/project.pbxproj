@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE743407235DF56100280EC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE743406235DF56100280EC4 /* AppDelegate.m */; };
+		BE74340A235DF56100280EC4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE743409235DF56100280EC4 /* SceneDelegate.m */; };
+		BE74340D235DF56100280EC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE74340C235DF56100280EC4 /* ViewController.m */; };
+		BE743410235DF56100280EC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE74340E235DF56100280EC4 /* Main.storyboard */; };
+		BE743412235DF56200280EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE743411235DF56200280EC4 /* Assets.xcassets */; };
+		BE743415235DF56200280EC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE743413235DF56200280EC4 /* LaunchScreen.storyboard */; };
+		BE743418235DF56200280EC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE743417235DF56200280EC4 /* main.m */; };
+		BE743422235DF56200280EC4 /* XiMaLaYaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE743421235DF56200280EC4 /* XiMaLaYaTests.m */; };
+		BE74342D235DF56200280EC4 /* XiMaLaYaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE74342C235DF56200280EC4 /* XiMaLaYaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE74341E235DF56200280EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7433FA235DF56100280EC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE743401235DF56100280EC4;
+			remoteInfo = XiMaLaYa;
+		};
+		BE743429235DF56200280EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7433FA235DF56100280EC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE743401235DF56100280EC4;
+			remoteInfo = XiMaLaYa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE743402235DF56100280EC4 /* XiMaLaYa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiMaLaYa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE743405235DF56100280EC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE743406235DF56100280EC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE743408235DF56100280EC4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BE743409235DF56100280EC4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BE74340B235DF56100280EC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE74340C235DF56100280EC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE74340F235DF56100280EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE743411235DF56200280EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE743414235DF56200280EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE743416235DF56200280EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE743417235DF56200280EC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE74341D235DF56200280EC4 /* XiMaLaYaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiMaLaYaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE743421235DF56200280EC4 /* XiMaLaYaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiMaLaYaTests.m; sourceTree = "<group>"; };
+		BE743423235DF56200280EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE743428235DF56200280EC4 /* XiMaLaYaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiMaLaYaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE74342C235DF56200280EC4 /* XiMaLaYaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiMaLaYaUITests.m; sourceTree = "<group>"; };
+		BE74342E235DF56200280EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE7433FF235DF56100280EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE74341A235DF56200280EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE743425235DF56200280EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE7433F9235DF56100280EC4 = {
+			isa = PBXGroup;
+			children = (
+				BE743404235DF56100280EC4 /* XiMaLaYa */,
+				BE743420235DF56200280EC4 /* XiMaLaYaTests */,
+				BE74342B235DF56200280EC4 /* XiMaLaYaUITests */,
+				BE743403235DF56100280EC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE743403235DF56100280EC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE743402235DF56100280EC4 /* XiMaLaYa.app */,
+				BE74341D235DF56200280EC4 /* XiMaLaYaTests.xctest */,
+				BE743428235DF56200280EC4 /* XiMaLaYaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE743404235DF56100280EC4 /* XiMaLaYa */ = {
+			isa = PBXGroup;
+			children = (
+				BE743405235DF56100280EC4 /* AppDelegate.h */,
+				BE743406235DF56100280EC4 /* AppDelegate.m */,
+				BE743408235DF56100280EC4 /* SceneDelegate.h */,
+				BE743409235DF56100280EC4 /* SceneDelegate.m */,
+				BE74340B235DF56100280EC4 /* ViewController.h */,
+				BE74340C235DF56100280EC4 /* ViewController.m */,
+				BE74340E235DF56100280EC4 /* Main.storyboard */,
+				BE743411235DF56200280EC4 /* Assets.xcassets */,
+				BE743413235DF56200280EC4 /* LaunchScreen.storyboard */,
+				BE743416235DF56200280EC4 /* Info.plist */,
+				BE743417235DF56200280EC4 /* main.m */,
+			);
+			path = XiMaLaYa;
+			sourceTree = "<group>";
+		};
+		BE743420235DF56200280EC4 /* XiMaLaYaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE743421235DF56200280EC4 /* XiMaLaYaTests.m */,
+				BE743423235DF56200280EC4 /* Info.plist */,
+			);
+			path = XiMaLaYaTests;
+			sourceTree = "<group>";
+		};
+		BE74342B235DF56200280EC4 /* XiMaLaYaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE74342C235DF56200280EC4 /* XiMaLaYaUITests.m */,
+				BE74342E235DF56200280EC4 /* Info.plist */,
+			);
+			path = XiMaLaYaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE743401235DF56100280EC4 /* XiMaLaYa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE743431235DF56200280EC4 /* Build configuration list for PBXNativeTarget "XiMaLaYa" */;
+			buildPhases = (
+				BE7433FE235DF56100280EC4 /* Sources */,
+				BE7433FF235DF56100280EC4 /* Frameworks */,
+				BE743400235DF56100280EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XiMaLaYa;
+			productName = XiMaLaYa;
+			productReference = BE743402235DF56100280EC4 /* XiMaLaYa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE74341C235DF56200280EC4 /* XiMaLaYaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE743434235DF56200280EC4 /* Build configuration list for PBXNativeTarget "XiMaLaYaTests" */;
+			buildPhases = (
+				BE743419235DF56200280EC4 /* Sources */,
+				BE74341A235DF56200280EC4 /* Frameworks */,
+				BE74341B235DF56200280EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE74341F235DF56200280EC4 /* PBXTargetDependency */,
+			);
+			name = XiMaLaYaTests;
+			productName = XiMaLaYaTests;
+			productReference = BE74341D235DF56200280EC4 /* XiMaLaYaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE743427235DF56200280EC4 /* XiMaLaYaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE743437235DF56200280EC4 /* Build configuration list for PBXNativeTarget "XiMaLaYaUITests" */;
+			buildPhases = (
+				BE743424235DF56200280EC4 /* Sources */,
+				BE743425235DF56200280EC4 /* Frameworks */,
+				BE743426235DF56200280EC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE74342A235DF56200280EC4 /* PBXTargetDependency */,
+			);
+			name = XiMaLaYaUITests;
+			productName = XiMaLaYaUITests;
+			productReference = BE743428235DF56200280EC4 /* XiMaLaYaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE7433FA235DF56100280EC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Zhuang Yang";
+				TargetAttributes = {
+					BE743401235DF56100280EC4 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					BE74341C235DF56200280EC4 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = BE743401235DF56100280EC4;
+					};
+					BE743427235DF56200280EC4 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = BE743401235DF56100280EC4;
+					};
+				};
+			};
+			buildConfigurationList = BE7433FD235DF56100280EC4 /* Build configuration list for PBXProject "XiMaLaYa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE7433F9235DF56100280EC4;
+			productRefGroup = BE743403235DF56100280EC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE743401235DF56100280EC4 /* XiMaLaYa */,
+				BE74341C235DF56200280EC4 /* XiMaLaYaTests */,
+				BE743427235DF56200280EC4 /* XiMaLaYaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE743400235DF56100280EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE743415235DF56200280EC4 /* LaunchScreen.storyboard in Resources */,
+				BE743412235DF56200280EC4 /* Assets.xcassets in Resources */,
+				BE743410235DF56100280EC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE74341B235DF56200280EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE743426235DF56200280EC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE7433FE235DF56100280EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE74340D235DF56100280EC4 /* ViewController.m in Sources */,
+				BE743407235DF56100280EC4 /* AppDelegate.m in Sources */,
+				BE743418235DF56200280EC4 /* main.m in Sources */,
+				BE74340A235DF56100280EC4 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE743419235DF56200280EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE743422235DF56200280EC4 /* XiMaLaYaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE743424235DF56200280EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE74342D235DF56200280EC4 /* XiMaLaYaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE74341F235DF56200280EC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE743401235DF56100280EC4 /* XiMaLaYa */;
+			targetProxy = BE74341E235DF56200280EC4 /* PBXContainerItemProxy */;
+		};
+		BE74342A235DF56200280EC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE743401235DF56100280EC4 /* XiMaLaYa */;
+			targetProxy = BE743429235DF56200280EC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE74340E235DF56100280EC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE74340F235DF56100280EC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE743413235DF56200280EC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE743414235DF56200280EC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE74342F235DF56200280EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE743430235DF56200280EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE743432235DF56200280EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9DCD9MT3;
+				INFOPLIST_FILE = XiMaLaYa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ikeek.www.XiMaLaYa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE743433235DF56200280EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9DCD9MT3;
+				INFOPLIST_FILE = XiMaLaYa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ikeek.www.XiMaLaYa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE743435235DF56200280EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9DCD9MT3;
+				INFOPLIST_FILE = XiMaLaYaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ikeek.www.XiMaLaYaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XiMaLaYa.app/XiMaLaYa";
+			};
+			name = Debug;
+		};
+		BE743436235DF56200280EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9DCD9MT3;
+				INFOPLIST_FILE = XiMaLaYaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ikeek.www.XiMaLaYaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XiMaLaYa.app/XiMaLaYa";
+			};
+			name = Release;
+		};
+		BE743438235DF56200280EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9DCD9MT3;
+				INFOPLIST_FILE = XiMaLaYaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ikeek.www.XiMaLaYaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XiMaLaYa;
+			};
+			name = Debug;
+		};
+		BE743439235DF56200280EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP9DCD9MT3;
+				INFOPLIST_FILE = XiMaLaYaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ikeek.www.XiMaLaYaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XiMaLaYa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE7433FD235DF56100280EC4 /* Build configuration list for PBXProject "XiMaLaYa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE74342F235DF56200280EC4 /* Debug */,
+				BE743430235DF56200280EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE743431235DF56200280EC4 /* Build configuration list for PBXNativeTarget "XiMaLaYa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE743432235DF56200280EC4 /* Debug */,
+				BE743433235DF56200280EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE743434235DF56200280EC4 /* Build configuration list for PBXNativeTarget "XiMaLaYaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE743435235DF56200280EC4 /* Debug */,
+				BE743436235DF56200280EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE743437235DF56200280EC4 /* Build configuration list for PBXNativeTarget "XiMaLaYaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE743438235DF56200280EC4 /* Debug */,
+				BE743439235DF56200280EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE7433FA235DF56100280EC4 /* Project object */;
+}
