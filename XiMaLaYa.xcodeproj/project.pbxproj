@@ -104,17 +104,12 @@
 		BE743404235DF56100280EC4 /* XiMaLaYa */ = {
 			isa = PBXGroup;
 			children = (
-				BE743405235DF56100280EC4 /* AppDelegate.h */,
-				BE743406235DF56100280EC4 /* AppDelegate.m */,
-				BE743408235DF56100280EC4 /* SceneDelegate.h */,
-				BE743409235DF56100280EC4 /* SceneDelegate.m */,
-				BE74340B235DF56100280EC4 /* ViewController.h */,
-				BE74340C235DF56100280EC4 /* ViewController.m */,
-				BE74340E235DF56100280EC4 /* Main.storyboard */,
-				BE743411235DF56200280EC4 /* Assets.xcassets */,
-				BE743413235DF56200280EC4 /* LaunchScreen.storyboard */,
 				BE743416235DF56200280EC4 /* Info.plist */,
-				BE743417235DF56200280EC4 /* main.m */,
+				BE74343E235DF69A00280EC4 /* Others */,
+				BE74343D235DF69200280EC4 /* Models */,
+				BE74343C235DF68A00280EC4 /* Views */,
+				BE74343A235DF67000280EC4 /* Controllers */,
+				BE743411235DF56200280EC4 /* Assets.xcassets */,
 			);
 			path = XiMaLaYa;
 			sourceTree = "<group>";
@@ -135,6 +130,43 @@
 				BE74342E235DF56200280EC4 /* Info.plist */,
 			);
 			path = XiMaLaYaUITests;
+			sourceTree = "<group>";
+		};
+		BE74343A235DF67000280EC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE74340B235DF56100280EC4 /* ViewController.h */,
+				BE74340C235DF56100280EC4 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BE74343C235DF68A00280EC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE743413235DF56200280EC4 /* LaunchScreen.storyboard */,
+				BE74340E235DF56100280EC4 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BE74343D235DF69200280EC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE74343E235DF69A00280EC4 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BE743417235DF56200280EC4 /* main.m */,
+				BE743405235DF56100280EC4 /* AppDelegate.h */,
+				BE743406235DF56100280EC4 /* AppDelegate.m */,
+				BE743408235DF56100280EC4 /* SceneDelegate.h */,
+				BE743409235DF56100280EC4 /* SceneDelegate.m */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
